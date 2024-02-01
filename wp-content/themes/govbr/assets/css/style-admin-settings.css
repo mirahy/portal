@@ -1,0 +1,397 @@
+/* Styles for the Admin Settings page */
+.appearance_page_govbr-settings #wpcontent {
+  padding-left: 0;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-header {
+  text-align: center;
+  margin: 0 0 1rem;
+  background: #fff;
+  border-bottom: 1px solid #dcdcde;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-header img {
+  max-width: 90px;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-header h1 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 600;
+  margin: 0 0.8rem 1rem;
+  font-size: 23px;
+  padding: 9px 0 4px;
+  line-height: 2;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-title-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  clear: both;
+  padding-top: 8px;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-tabs-wrapper {
+  display: -ms-inline-grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  vertical-align: top;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-tabs-wrapper.tab-count-1 {
+  grid-template-columns: 1fr;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-tabs-wrapper.tab-count-2 {
+  grid-template-columns: 1fr 1fr;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-tabs-wrapper.tab-count-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-tabs-wrapper.tab-count-4 {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-tabs-wrapper.tab-count-5 {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-tabs-wrapper .govbr-theme-settings-tab {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  padding: 0.5rem 1rem 1rem;
+  margin: 0 1rem;
+  transition: box-shadow 0.5s ease-in-out;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-tabs-wrapper .govbr-theme-settings-tab.active {
+  box-shadow: inset 0 -3px #3582c4;
+  font-weight: 600;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-tabs-wrapper .govbr-theme-settings-tab:nth-child(1) {
+  -ms-grid-column: 1;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-body {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-body .card {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid {
+  margin: 1rem 0;
+  display: grid;
+  grid-template-rows: 32px 38px 350px 165px;
+  grid-template-columns: 10rem auto auto;
+  grid-template-areas: "sidebar header-top header-top" "sidebar header-bottom header-bottom" "sidebar content content" "sidebar footer footer";
+  height: 100%;
+  border-radius: 4px;
+  border: 1px solid #dcdcde;
+  box-shadow: 0 1px 6px -5px #000;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-sidebar {
+  background-color: #fff;
+  grid-area: sidebar;
+  border-right: 1px solid #ebebeb;
+  display: flex;
+  flex-direction: column;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-sidebar #site-sample-sidebar-top {
+  height: 32px;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  padding-left: 0.25rem;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-sidebar #site-sample-sidebar-middle {
+  height: 173px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-sidebar #site-sample-sidebar-bottom {
+  height: 120px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-header-top {
+  background-color: #fbfbfb;
+  grid-area: header-top;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: inset 2px 0px 5px -4px #888;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-header-top #site-sample-header-top-left {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-header-top #site-sample-header-top-center {
+  width: 31%;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-header-top #site-sample-header-top-right {
+  width: 16%;
+  border-left: 1px solid #efefef;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-header-bottom {
+  background-color: #fefefe;
+  grid-area: header-bottom;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: inset 2px 0px 5px -4px #888;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-header-bottom #site-sample-header-bottom-left {
+  width: 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-header-bottom #site-sample-header-bottom-center {
+  width: 25%;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-header-bottom #site-sample-header-bottom-right {
+  width: 30%;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-content {
+  background-color: #f0f0f1;
+  grid-area: content;
+  box-shadow: inset 2px 2px 5px -4px #666;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  place-content: center;
+  gap: 1.25rem;
+  padding: 1.5rem;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-content .card {
+  padding: 12px;
+  min-width: unset;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-content .card h3 {
+  font-size: 0.875rem;
+  margin-top: 0;
+  margin-bottom: -6px;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-content .card .button {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-content .card::before {
+  display: block;
+  content: "";
+  position: absolute;
+  z-index: 0;
+  border-style: dashed;
+  border-color: #3582c4;
+  border-width: 0px;
+  transition: border-width 0.2s ease;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-content .card[data-related-area=site-sample-header-bottom-center]::before {
+  width: 171px;
+  height: 38px;
+  top: -38px;
+  left: -30px;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-content .card:hover[data-related-area=site-sample-header-bottom-center]::before, .appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-content .card.hovered[data-related-area=site-sample-header-bottom-center]::before {
+  border-top-width: 2px;
+  border-right-width: 2px;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-content .card[data-related-area=site-sample-sidebar-middle]::before {
+  width: 80px;
+  height: 13px;
+  top: -12px;
+  left: -22px;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-content .card:hover[data-related-area=site-sample-sidebar-middle]::before, .appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-content .card.hovered[data-related-area=site-sample-sidebar-middle]::before {
+  border-top-width: 2px;
+  border-right-width: 2px;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-content .card[data-related-area=site-sample-header-top-center]::before {
+  width: 0;
+  height: 54px;
+  top: -56px;
+  left: 12px;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-content .card:hover[data-related-area=site-sample-header-top-center]::before, .appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-content .card.hovered[data-related-area=site-sample-header-top-center]::before {
+  border-top-width: 2px;
+  border-right-width: 2px;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-content .card[data-related-area=site-sample-header-top-right]::before {
+  width: 12px;
+  height: 224px;
+  top: -209px;
+  right: -12px;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-content .card:hover[data-related-area=site-sample-header-top-right]::before, .appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-content .card.hovered[data-related-area=site-sample-header-top-right]::before {
+  border-bottom-width: 2px;
+  border-right-width: 2px;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-content .card[data-related-area=site-sample-sidebar-bottom]::before {
+  width: 81px;
+  height: 12px;
+  top: -11px;
+  right: 182px;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-content .card:hover[data-related-area=site-sample-sidebar-bottom]::before, .appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-content .card.hovered[data-related-area=site-sample-sidebar-bottom]::before {
+  border-top-width: 2px;
+  border-right-width: 2px;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-content .card[data-related-area=site-sample-footer]::before {
+  width: 13px;
+  height: 92px;
+  top: 82px;
+  right: -12px;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-content .card:hover[data-related-area=site-sample-footer]::before, .appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-content .card.hovered[data-related-area=site-sample-footer]::before {
+  border-top-width: 2px;
+  border-right-width: 2px;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-footer {
+  background-color: #071d41;
+  grid-area: footer;
+  box-shadow: inset 2px 0px 5px -4px #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0.25rem 0.5rem;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-footer .site-sample-link {
+  margin-bottom: 0;
+  background-color: #374b8a;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-footer .site-sample-text {
+  margin-left: 0;
+  background-color: rgba(220, 220, 222, 0.4392156863);
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid #site-sample-footer .site-sample-image {
+  background-color: rgba(220, 220, 222, 0.4392156863);
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid .site-sample-input {
+  background-color: #f2f2f2;
+  max-width: 100%;
+  border-radius: 5px;
+  height: 24px;
+  margin: 8px;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid .site-sample-link {
+  background-color: #0076d6;
+  max-width: 60px;
+  border-radius: 4px;
+  height: 5px;
+  margin: 9px 2px;
+  width: 100%;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid .site-sample-text {
+  background-color: #7c7c7c;
+  max-width: 120px;
+  border-radius: 4px;
+  height: 5px;
+  margin: 2px 4px;
+  width: 100%;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid .site-sample-title {
+  background-color: #9c9c9c;
+  max-width: 75px;
+  border-radius: 6px;
+  height: 6px;
+  margin: 3px 4px;
+  width: 100%;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid .site-sample-icon {
+  background-color: rgba(19, 81, 180, 0.16);
+  border-radius: 100em;
+  height: 12px;
+  width: 12px;
+  margin: 8px 2px;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid .site-sample-button {
+  background-color: rgba(19, 81, 180, 0.16);
+  border-radius: 100em;
+  height: 16px;
+  width: 42px;
+  margin: 8px 2px;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid .site-sample-image {
+  background-color: rgba(26, 39, 59, 0.16);
+  border-radius: 2px;
+  height: 18px;
+  width: 42px;
+  margin: 8px 2px;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid .site-sample-menu-item {
+  height: 20px;
+  border-bottom: 1px solid #dedede;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.25rem;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid .site-sample-social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  width: 100%;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid .site-sample-footer-columns {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.5rem;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid .site-sample-footer-columns .site-sample-footer-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-basis: 25%;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid .selectable-area {
+  box-shadow: inset 0 0 0 0 #3582c4;
+  transform: scale(1);
+  transition: box-shadow 0.3s ease, transform 0.2s linear;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid .selectable-area:hover, .appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid .selectable-area:focus, .appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid .selectable-area.hovered {
+  transform: scale(1.025);
+  box-shadow: inset 0 0 0 3px #3582c4 !important;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid .card {
+  box-shadow: inset 0 0 0 0 #3582c4;
+  transition: box-shadow 0.3s ease;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid .card:hover, .appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid .card:focus, .appearance_page_govbr-settings .govbr-theme-settings-site-sample-grid .card.hovered {
+  box-shadow: inset 0 0 0 3px #3582c4 !important;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  margin-bottom: 1rem;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-cards-container label {
+  display: flex;
+  align-items: baseline;
+  gap: 0.25rem;
+}
+.appearance_page_govbr-settings .govbr-theme-settings-cards-container label h3 {
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+@media only screen and (max-width: 1004px) {
+  .appearance_page_govbr-settings .govbr-theme-settings-body {
+    margin: 0 22px;
+    width: auto;
+  }
+}
+
+/*# sourceMappingURL=style-admin-settings.css.map */

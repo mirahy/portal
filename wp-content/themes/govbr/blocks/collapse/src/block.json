@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "govbr/collapse",
+	"title": "Collapse",
+	"category": "widgets",
+	"keywords": [ "collapse", "acordeão", "menu", "expandir", "esconder" ],
+	"description": "Uma área de conteudo que pode ser escondido ou expandido ao se clicar no rótulo.",
+	"attributes": {
+		"blockId": {
+			"type": "string",
+			"default": ""
+		}
+    },
+	"providesContext": {
+		"govbr/blockId": "blockId"
+	},
+	"textdomain": "govbr",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
