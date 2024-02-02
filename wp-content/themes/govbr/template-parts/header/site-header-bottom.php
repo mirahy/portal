@@ -22,15 +22,9 @@ $header_class = $show_title ? 'site-title' : 'screen-reader-text';
 
             <?php if ( $site_name ) : ?>
             <div class="header-title">
-                <?php if ( is_front_page() && ! is_paged() ) : ?>
+               
                 <h1 class="<?php echo esc_attr( $header_class ); ?>"><?php echo esc_html( $site_name ); ?></h1>
-                <?php elseif ( is_front_page() && ! is_home() ) : ?>
-                <h1 class="<?php echo esc_attr( $header_class ); ?>"><a
-                        href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php echo esc_html( $site_name ); ?></a></h1>
-                <?php else : ?>
-                <p class="<?php echo esc_attr( $header_class ); ?>"><a
-                        href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php echo esc_html( $site_name ); ?></a></p>
-                <?php endif; ?>
+                
             </div>
             <?php endif; ?>
 

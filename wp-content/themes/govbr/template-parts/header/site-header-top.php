@@ -52,7 +52,6 @@
                             array(
                                 'theme_location'  => 'institutional',
                                 'container'       => '',
-                                'depth' => 1,
                                 'menu_class'      => '',
                                 'items_wrap'      => '%3$s',
                                 'fallback_cb'     => false,
