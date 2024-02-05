@@ -118,13 +118,13 @@ if (!class_exists('Gov_BR_Walker_Institutional_Menu')) {
         {
             $item_link = $data_object->url ? $data_object->url : 'javascript: void(0)';
             if ($args->walker->has_children && $depth == 0) {
-                $output .=   '<div class="dropdown">
+                $output .=   '<div class="br-item dropdown list-dropdown">
                                 <a class="dropdown-toggle button-menu" href="' . $item_link . '" role="button" data-bs-toggle="dropdown" aria-expanded="false">'
                     . $data_object->title .
                     '</a>';
             } else {
                 if ($depth > 0) {
-                    $output .= '<li><a class="dropdown-item br-item item-li" href="' . $item_link . '">' . $data_object->title . '</a></li>';
+                    $output .= '<li><a class="dropdown-item br-item item-li" href="' . $item_link . '">' . $data_object->title ;
                 } else {
                     $output .= '<a class="br-item" href="' . $item_link . '">' . $data_object->title;
                 }
@@ -147,6 +147,13 @@ if (!class_exists('Gov_BR_Walker_Institutional_Menu')) {
         public function end_el(&$output, $data_object, $depth = 0, $args = array())
         {
             $output .= '</a>';
+
+            if ($depth > 0) {
+                $output .= '</a></li>';
+            } else {
+                $output .= '</a>';
+            }
+            
         }
     }
 }

@@ -43,7 +43,7 @@
                 <button class="br-button circle small" type="button" data-toggle="dropdown"
                     aria-label="Abrir Acesso Rápido"><i class="fas fa-ellipsis-v" aria-hidden="true"></i>
                 </button>
-                <div class="br-list">
+                <div class="br-list menu-list">
                     <div class="header">
                         <div class="title"><?php _e( 'Acesso Rápido', 'govbr' ); ?></div>
                     </div>
@@ -68,12 +68,12 @@
                 <button class="br-button circle small" type="button" data-toggle="dropdown"
                     aria-label="Abrir Funcionalidades do Sistema"><i class="fas fa-th" aria-hidden="true"></i>
                 </button>
-                <div class="br-list">
+                <div class="br-list list-fuctions">
                     <div class="header">
                         <div class="title"><?php echo __( 'Funcionalidades do Sistema', 'govbr' ); ?></div>
                     </div>
                     <?php if ( $is_feature_vlibras_enabled ) : ?>
-                        <div class="br-item">
+                        <div class="br-item button-libras">
                             <button id="vlibras-toggler" vw-access-button class="br-button circle small" type="button" aria-label="<?php echo __( 'VLibras', 'govbr' ); ?>">
                                 <i class="fas fa-hands" aria-hidden="true"></i>
                                 <span class="text"><?php echo __( 'VLibras', 'govbr' ); ?></span>
