@@ -110,7 +110,8 @@
                     href="https://suporte.ead.ufgd.edu.br/"
                     target="_blank"
                 >
-                    <span class="text font-weight-bold">Acessar Painel</span>
+                    <i class="fas fa-external-link-alt painel-icon"></i>
+                    <span class="painel-text">Acesso Painel</span>
                     
                 </a>
             </div>
