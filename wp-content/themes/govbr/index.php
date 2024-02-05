@@ -80,140 +80,165 @@ the_breadcrumb();
 </div>
 
 <!-- Grid de acesso Rápido -->
-
-<div class="row access">
-
-	<div class="col-xs-12 col-md-12 easyaccess">
-		<!-- Grid do Painel -->
-		<div class="col-md-3 ">
-			<div class="column">
-				<div class="project-list">
-					<div class="project">
-						<div class="project__card">
-							<a href="<?php bloginfo('url') ?>/secaf" class="project__image"><img src="<?php bloginfo('template_url'); ?>/images/secaf.png" width=600 height=400 alt=""></a>
-							<p class="celular">Secretaria Acadêmica</p>
-							<div class="project__detail">
-								<h3 class="project__title"><a href="#">Secretaria Acadêmica</a></h3>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+<div class="row acess-cards">
+	<div class="access-links col-xs-12 container-lg">
+		<div class="col-md-3 card-easy">
+			<a href="<?php bloginfo('url') ?>/secaf" class="card-easy-access">Secretaria Acadêmica</a>
 		</div>
-		<div class="col-md-3">
-			<div class="column">
-				<div class="project-list">
-					<div class="project">
-						<div class="project__card">
-							<a href="http://ojs.ufgd.edu.br/index.php?journal=ead" class="project__image"><img src="<?php bloginfo('template_url'); ?>/images/index-revista.png" width=600 height=400 alt=""></a>
-							<p class="celular">Revista EaD</p>
-							<div class="project__detail">
-								<h3 class="project__title"><a href="#">Revista EaD</a></h3>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+		<div class="col-md-3 card-easy">
+			<a href="http://ojs.ufgd.edu.br/index.php?journal=ead" class="card-easy-access">Revista EaD</a>
 		</div>
-
-		<div class="col-md-3">
-			<div class="column">
-				<div class="project-list">
-					<div class="project">
-						<div class="project__card">
-							<a href="<?php bloginfo('url') ?>/tutoriais" class="project__image"><img src="<?php bloginfo('template_url'); ?>/images/index-tutoriais.png" width=600 height=400 alt=""></a>
-							<p class="celular">Orientações e Tutoriais</p>
-							<div class="project__detail">
-								<h3 class="project__title"><a href="#">Orientações e Tutoriais</a></h3>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+		<div class="col-md-3 card-easy">
+			<a href="<?php bloginfo('url') ?>/tutoriais" class="card-easy-access">Orientações e Tutoriais</a>
 		</div>
-		<div class="col-md-3">
-			<div class="column">
-				<div class="project-list">
-					<div class="project">
-						<div class="project__card">
-							<a href="https://suporte.ead.ufgd.edu.br" class="project__image"><img src="<?php bloginfo('template_url'); ?>/images/index-suporte.png" width=600 height=400 alt=""></a>
-							<p class="celular">Solicitação de Sala</p>
-							<div class="project__detail">
-								<h3 class="project__title"><a href="#">Solicitação de Sala</a></h3>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+		<div class="col-md-3 card-easy">
+			<a href="https://suporte.ead.ufgd.edu.br" class="card-easy-access">Solicitação de Sala</a>
 		</div>
-
-		<div class="col-md-3">
-			<div class="column">
-				<div class="project-list">
-					<div class="project">
-						<div class="project__card">
-
-							<a href="<?php bloginfo('url') ?>/duvidas" class="project__image"><img src="<?php bloginfo('template_url'); ?>/images/index-faq.png" width=600 height=400 alt=""></a>
-							<p class="celular">Dúvidas e FAQ</p>
-							<div class="project__detail">
-								<h3 class="project__title"><a href="#">Dúvidas e FAQ</a></h3>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+		<div class="col-md-3 card-easy">
+			<a href="?page_id=6108" class="card-easy-access">Dúvidas e FAQ</a>
 		</div>
-
-		<div class="col-md-3">
-			<div class="column">
-				<div class="project-list">
-					<div class="project">
-
-						<div class="project__card">
-							<a href="?page_id=6108" class="project__image"><img src="<?php bloginfo('template_url'); ?>/images/index-documentos.png" width=600 height=400 alt=""></a>
-							<p class="celular">Documentos</p>
-							<div class="project__detail">
-								<h3 class="project__title"><a href="#">Documentos</a></h3>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+		<div class="col-md-3 card-easy">
+			<a href="<?php bloginfo('url') ?>/duvidas" class="card-easy-access">Documentos</a>
 		</div>
-		<div class="col-md-3">
-			<div class="column">
-				<div class="project-list">
-					<div class="project">
-						<div class="project__card">
-							<a href="<?php echo site_url('/validar-certificado/'); ?>" class="project__image"><img src="<?php bloginfo('template_url'); ?>/images/index-certificado.png" width=600 height=400 alt=""></a>
-							<p class="celular">Validar Certificado</p>
-							<div class="project__detail">
-								<h3 class="project__title"><a href="#">Validar Certificado</a></h3>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+		<div class="col-md-3 card-easy">
+			<a href="<?php echo site_url('/validar-certificado/'); ?>" class="card-easy-access">Validar Certificado</a>
 		</div>
-
-		<div class="col-md-3">
-			<div class="column">
-				<div class="project-list">
-					<div class="project">
-
-						<div class="project__card">
-							<a href="<?php echo site_url('/formandos-2/'); ?>" class="project__image"><img src="<?php bloginfo('template_url'); ?>/images/index-formandos.png" width=600 height=400 alt=""></a>
-							<p class="celular">Egressos</p>
-							<div class="project__detail">
-								<h3 class="project__title"><a href="#">Egressos</a></h3>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+		<div class="col-md-3 card-easy">
+			<a href="<?php echo site_url('/formandos-2/'); ?>" class="card-easy-access">Egressos</a>
 		</div>
 	</div>
 </div>
+
+
+	<!-- <div class="row access">
+
+		<div class="col-xs-12 col-md-12 easyaccess">
+			 Grid do Painel
+			<div class="col-md-3 ">
+				<div class="column">
+					<div class="project-list">
+						<div class="project">
+							<div class="project__card">
+								<a href="<?php bloginfo('url') ?>/secaf" class="project__image"><img src="<?php bloginfo('template_url'); ?>/images/secaf.png" width=600 height=400 alt=""></a>
+								<p class="celular">Secretaria Acadêmica</p>
+								<div class="project__detail">
+									<h3 class="project__title"><a href="#">Secretaria Acadêmica</a></h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="column">
+					<div class="project-list">
+						<div class="project">
+							<div class="project__card">
+								<a href="http://ojs.ufgd.edu.br/index.php?journal=ead" class="project__image"><img src="<?php bloginfo('template_url'); ?>/images/index-revista.png" width=600 height=400 alt=""></a>
+								<p class="celular">Revista EaD</p>
+								<div class="project__detail">
+									<h3 class="project__title"><a href="#">Revista EaD</a></h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="column">
+					<div class="project-list">
+						<div class="project">
+							<div class="project__card">
+								<a href="<?php bloginfo('url') ?>/tutoriais" class="project__image"><img src="<?php bloginfo('template_url'); ?>/images/index-tutoriais.png" width=600 height=400 alt=""></a>
+								<p class="celular">Orientações e Tutoriais</p>
+								<div class="project__detail">
+									<h3 class="project__title"><a href="#">Orientações e Tutoriais</a></h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="column">
+					<div class="project-list">
+						<div class="project">
+							<div class="project__card">
+								<a href="https://suporte.ead.ufgd.edu.br" class="project__image"><img src="<?php bloginfo('template_url'); ?>/images/index-suporte.png" width=600 height=400 alt=""></a>
+								<p class="celular">Solicitação de Sala</p>
+								<div class="project__detail">
+									<h3 class="project__title"><a href="#">Solicitação de Sala</a></h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="column">
+					<div class="project-list">
+						<div class="project">
+							<div class="project__card">
+
+								<a href="<?php bloginfo('url') ?>/duvidas" class="project__image"><img src="<?php bloginfo('template_url'); ?>/images/index-faq.png" width=600 height=400 alt=""></a>
+								<p class="celular">Dúvidas e FAQ</p>
+								<div class="project__detail">
+									<h3 class="project__title"><a href="#">Dúvidas e FAQ</a></h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="column">
+					<div class="project-list">
+						<div class="project">
+
+							<div class="project__card">
+								<a href="?page_id=6108" class="project__image"><img src="<?php bloginfo('template_url'); ?>/images/index-documentos.png" width=600 height=400 alt=""></a>
+								<p class="celular">Documentos</p>
+								<div class="project__detail">
+									<h3 class="project__title"><a href="#">Documentos</a></h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="column">
+					<div class="project-list">
+						<div class="project">
+							<div class="project__card">
+								<a href="<?php echo site_url('/validar-certificado/'); ?>" class="project__image"><img src="<?php bloginfo('template_url'); ?>/images/index-certificado.png" width=600 height=400 alt=""></a>
+								<p class="celular">Validar Certificado</p>
+								<div class="project__detail">
+									<h3 class="project__title"><a href="#">Validar Certificado</a></h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="column">
+					<div class="project-list">
+						<div class="project">
+
+							<div class="project__card">
+								<a href="<?php echo site_url('/formandos-2/'); ?>" class="project__image"><img src="<?php bloginfo('template_url'); ?>/images/index-formandos.png" width=600 height=400 alt=""></a>
+								<p class="celular">Egressos</p>
+								<div class="project__detail">
+									<h3 class="project__title"><a href="#">Egressos</a></h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
 </div>
 
 <?php
