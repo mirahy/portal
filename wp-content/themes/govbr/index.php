@@ -114,7 +114,7 @@ the_breadcrumb();
 
 					<h3 class="post-title">
 						<a href="<?php the_permalink(); ?>">
-							<?php the_title(); ?>
+							<strong><?php the_title(); ?></strong>
 							<p class="p-post"><?php echo wp_trim_words(get_the_excerpt(), 20); ?></p>
 						</a>
 
