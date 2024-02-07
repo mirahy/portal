@@ -19,7 +19,7 @@
 		
 		<?php gov_br_entry_meta_header(); ?>
 
-		<?php gov_br_post_thumbnail(); ?>
+		<?php //gov_br_post_thumbnail(); ?>
 		
 	</header><!-- .entry-header -->
 
