@@ -22,6 +22,6 @@
 		<?php get_template_part( 'template-parts/excerpt/excerpt', get_post_format() ); ?>
 	</div><!-- .entry-content -->
 
-	<?php gov_br_entry_meta_footer(); ?>
+	<?php //gov_br_entry_meta_footer(); ?>
 	
 </article><!-- #post-${ID} -->

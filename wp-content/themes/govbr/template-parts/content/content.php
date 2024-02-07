@@ -44,6 +44,6 @@
 		?>
 	</div><!-- .entry-content -->
 	
-	<?php gov_br_entry_meta_footer(); ?>
+	<?php //gov_br_entry_meta_footer(); ?>
 
 </article><!-- #post-<?php the_ID(); ?> -->

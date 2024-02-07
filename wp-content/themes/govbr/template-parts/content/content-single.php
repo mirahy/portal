@@ -23,6 +23,7 @@
 		
 	</header><!-- .entry-header -->
 
+
 	<div class="entry-content">
 		<?php
 		the_content();
@@ -37,11 +38,13 @@
 		);
 		?>
 	</div><!-- .entry-content -->
-
-	<?php gov_br_entry_meta_footer(); ?>
-
-	<?php if ( ! is_singular( 'attachment' ) ) : ?>
-		<?php get_template_part( 'template-parts/post/author-bio' ); ?>
-	<?php endif; ?>
+	
+	<?php //gov_br_entry_meta_footer(); ?>
+	
+	
+		<?php //if ( ! is_singular( 'attachment' ) ) : ?>
+			<?php //get_template_part( 'template-parts/post/author-bio' ); ?>
+		<?php //endif; ?>
+	</div>
 
 </article><!-- #post-<?php the_ID(); ?> -->

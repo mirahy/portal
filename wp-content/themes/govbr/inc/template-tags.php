@@ -228,7 +228,7 @@ if ( ! function_exists( 'gov_br_the_posts_navigation' ) ) {
 		the_posts_pagination(
 			array(
 				'mid_size'           => 3,
-				'show_all'			 => true,
+				'show_all'			 => false,
 				'type'				 => 'list',
 				'prev_text'          => '<i class="fas fa-angle-left" aria-hidden="true"></i>',
 				'next_text'          => '<i class="fas fa-angle-right" aria-hidden="true"></i>',

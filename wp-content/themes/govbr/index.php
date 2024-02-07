@@ -46,42 +46,45 @@ the_breadcrumb();
 <?php endif; ?>
 
 <!-- slider -->
-<!-- <div class="container-slide">
+<div class="container-slide">
 	<div id="slider" class="col-sm-12 hidden-sm hidden-xs" style="max-width: 1170px;">
 		<?php if (function_exists('show_simpleresponsiveslider')) : ?>
 			<?php show_simpleresponsiveslider(); ?>
 		<?php endif; ?>
 	</div>
-</div> -->
+</div>
 <!-- Noticias -->
 <div class="container container-noticias">
 	<!-- Carrossel -->
-	<div class="row col-xs-6">
+	<div class="row col-xs-6 carousel-row">
 		<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
 		<?php $cont = 0;
-				query_posts('category_name=noticias&posts_per_page=4'); ?>
+				query_posts('category_name=noticias&posts_per_page=8'); ?>
 			<div class="carousel-indicators">
 				<?php while (have_posts()) : the_post(); ?>
 					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="<?php echo $cont ?>"
-					 <?php if ($cont == 1) {echo "class='active' aria-current='true'";} ?>  aria-label="<?php echo 'Slide '.$cont ?>"></button>
+					 <?php if ($cont == 0) {echo "class='active' aria-current='true'";} ?>  aria-label="<?php echo 'Slide '.$cont ?>"></button>
 					 <?php $cont++ ?>
 				<?php endwhile; ?>
 			</div>
 			<div class="carousel-inner">
 			<?php $cont = 0; ?>
 				<?php while (have_posts()) : the_post(); ?>
-					<div class="carousel-item <?php if ($cont == 1) {
+					<div class="carousel-item <?php if ($cont == 0) {
 													echo 'active';
 												} ?> ">
 						<a href="<?php the_permalink(); ?>">
 							<div>
-								<figure class="post_thumbnail d-block w-100">
+								<figure class="post_thumbnail d-block w-100 img-carousel2">
 									<?php if (has_post_thumbnail()) {
 										echo the_post_thumbnail('full');
-									}; ?>
+										}else{
+											echo '<img src="wp-content/themes/govbr/images/novo2.png"/>';
+										}; 
+									?>
 								</figure>
 							</div>
-							<div>
+							<div class="title-carousel">
 								<strong><?php the_title(); ?></strong>
 							</div>
 						</a>
@@ -103,7 +106,8 @@ the_breadcrumb();
 	<div class="row col-xs-6">
 		<div class="col-xs-6 listagem-de-posts container">
 			<h1 id="titulo-noticia">Notícias</h1>
-
+			<?php $cont = 0;
+				query_posts('category_name=noticias&posts_per_page=4'); ?>
 			<?php while (have_posts()) : the_post(); ?>
 
 				<article class="post">
