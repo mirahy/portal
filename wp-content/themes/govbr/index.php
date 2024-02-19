@@ -105,7 +105,10 @@ the_breadcrumb();
 	<!-- Noticias -->
 	<div class="row col-xs-6">
 		<div class="col-xs-6 listagem-de-posts container">
-			<h1 id="titulo-noticia">Notícias</h1>
+			<div class="titulo-noticia">
+				<i class="fa fa-file-text" aria-hidden="true"></i>
+				<h1 id="titulo-noticia">Notícias</h1>
+			</div>
 			<?php $cont = 0;
 				query_posts('category_name=noticias&posts_per_page=4'); ?>
 			<?php while (have_posts()) : the_post(); ?>

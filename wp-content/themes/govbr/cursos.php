@@ -25,7 +25,7 @@ the_breadcrumb();
 					<div class="project-list">
 						<div class="project">
 							<div class="project__card">
-								<a href=" https://portal.ead.ufgd.edu.br/cursos/licenciatura-em-educacao-fisica/" class="project__image">
+								<a href="<?php echo get_home_url().'/cursos/licenciatura-em-educacao-fisica/'?>" class="project__image">
 									<img src="<?php bloginfo('template_url'); ?>/images/educaofisica-min.png" width=600 height=400 alt=""></a>
 								<p class="celular">Licenciatura em Educação Física</p>
 								<div class="project__detail">
@@ -44,7 +44,7 @@ the_breadcrumb();
 					<div class="project-list">
 						<div class="project">
 							<div class="project__card">
-								<a href="http://portalead.ufgd.edu.br/cursos/licenciatura-em-fisica/" class="project__image">
+								<a href="<?php echo get_home_url().'/cursos/licenciatura-em-fisica/'?>" class="project__image">
 									<img src="<?php bloginfo('template_url'); ?>/images/fisica.png" width=600 height=400 alt=""></a>
 								<p class="celular">Licenciatura em  Física</p>
 								<div class="project__detail">
@@ -62,7 +62,7 @@ the_breadcrumb();
 					<div class="project-list">
 						<div class="project">
 							<div class="project__card">
-								<a href="https://portal.ead.ufgd.edu.br/cursos/licenciatura-em-ciencias-biologicas/" class="project__image">
+								<a href="<?php echo get_home_url().'/cursos/licenciatura-em-ciencias-biologicas/'?>" class="project__image">
 									<img src="<?php bloginfo('template_url'); ?>/images/biologia-min.png" width=600 height=400 alt=""></a>
 								<p class="celular">Licenciatura em Ciências Biológicas</p>
 								<div class="project__detail">
@@ -80,7 +80,7 @@ the_breadcrumb();
 					<div class="project-list">
 						<div class="project">
 							<div class="project__card">
-								<a href="https://portal.ead.ufgd.edu.br/cursos/tecnologia-em-gestao-de-recursos-humanos/" class="project__image">
+								<a href="<?php echo get_home_url().'/cursos/tecnologia-em-gestao-de-recursos-humanos/'?>" class="project__image">
 									<img src="<?php bloginfo('template_url'); ?>/images/RH2.png" width=600 height=400 alt=""></a>
 								<p class="celular">Tecnologia em Gestão de Recursos Humanos</p>
 								<div class="project__detail">
@@ -98,7 +98,7 @@ the_breadcrumb();
 					<div class="project-list">
 						<div class="project">
 							<div class="project__card">
-								<a href="http://portalead.ufgd.edu.br/cursos/licenciatura-em-letras-libras/" class="project__image">
+								<a href="<?php echo get_home_url().'/cursos/licenciatura-em-letras-libras/'?>" class="project__image">
 									<img src="<?php bloginfo('template_url'); ?>/images/letras-libras.png" width=600 height=400 alt=""></a>
 								<p class="celular">Licenciatura em Letras Libras</p>
 								<div class="project__detail">
@@ -116,7 +116,7 @@ the_breadcrumb();
 					<div class="project-list">
 						<div class="project">
 							<div class="project__card">
-								<a href="http://portalead.ufgd.edu.br/cursos/bacharelado-em-letras-libras/" class="project__image">
+								<a href="<?php echo get_home_url().'/cursos/bacharelado-em-letras-libras/'?>" class="project__image">
 									<img src="<?php bloginfo('template_url'); ?>/images/letras-libras.png" width=600 height=400 alt=""></a>
 								<p class="celular">Bacharelado em Letras-Libras</p>
 								<div class="project__detail">
@@ -135,7 +135,7 @@ the_breadcrumb();
 					<div class="project-list">
 						<div class="project">
 							<div class="project__card">
-								<a href="http://portalead.ufgd.edu.br/cursos/licenciatura-em-pedagogia/" class="project__image">
+								<a href="<?php echo get_home_url().'/cursos/licenciatura-em-pedagogia/'?>" class="project__image">
 									<img src="<?php bloginfo('template_url'); ?>/images/pedagogia.png" width=600 height=400 alt=""></a>
 								<p class="celular">Licenciatura em Pedagogia</p>
 								<div class="project__detail">
@@ -153,7 +153,7 @@ the_breadcrumb();
 					<div class="project-list">
 						<div class="project">
 							<div class="project__card">
-								<a href="http://portalead.ufgd.edu.br/cursos/bacharelado-em-administracao-publica/" class="project__image">
+								<a href="<?php echo get_home_url().'/cursos/bacharelado-em-administracao-publica/'?>" class="project__image">
 									<img src="<?php bloginfo('template_url'); ?>/images/administracao.png" width=600 height=400 alt=""></a>
 								<p class="celular">Bacharelado em Administração Pública</p>
 								<div class="project__detail">
@@ -172,7 +172,7 @@ the_breadcrumb();
 					<div class="project-list">
 						<div class="project">
 							<div class="project__card">
-								<a href="http://portalead.ufgd.edu.br/cursos/licenciatura-em-computacao/" class="project__image">
+								<a href="<?php echo get_home_url().'/cursos/licenciatura-em-computacao/'?>" class="project__image">
 									<img src="<?php bloginfo('template_url'); ?>/images/computacao.png" width=600 height=400 alt=""></a>
 								<p class="celular">Licenciatura em Computação</p>
 								<div class="project__detail">
@@ -201,7 +201,7 @@ the_breadcrumb();
 					<div class="project-list">
 						<div class="project">
 							<div class="project__card">
-								<a href="https://portal.ead.ufgd.edu.br/especializacao-em-ensino-de-ciencias-anos-finais-do-ensino-fundamental-ciencia-e-dez/" class="project__image">
+								<a href="<?php echo get_home_url().'/especializacao-em-ensino-de-ciencias-anos-finais-do-ensino-fundamental-ciencia-e-dez/'?>" class="project__image">
 									<img src="<?php bloginfo('template_url'); ?>/images/c10novo.png" width=600 height=400 alt=""></a>
 								<p class="celular">Especialização em Ensino de Ciências-"Ciência é Dez!"</p>
 								<div class="project__detail">

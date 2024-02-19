@@ -53,6 +53,11 @@
                     ?>
                 <?php endif; ?>
 
+                    <a class="menu-item divider old-site" href="<?php echo get_home_url().'/old'?>">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                        <span class="content">Versão Anterior</span>
+                    </a>
+
                 <?php block_template_part( 'menu-footer' ) ?>
                 
             </div>
