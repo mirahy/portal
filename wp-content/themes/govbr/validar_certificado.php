@@ -30,19 +30,20 @@ echo '<form action="" method="get" accept-charset="utf-8">
       </form>';
 
 if ($validar) {
+
     $codigo_validacao = $_GET['codigo_validacao'];
-
+    
     $certificado   = validar_certificado($codigo_validacao);
-
+    
     if(!empty($certificado)){
         foreach ($certificado as $value) {
-        $participante  = $value[firstname].' '.$value[lastname];
-        $nome_evento   = $value[nome_evento];
-        $data_inicio   = $value[data_inicio];
-        $data_fim      = $value[data_fim]? $value[data_fim]:"";
-        $carga_horaria = $value[carga_horaria];
-        $tipo          = $value[nome_tipo];
-        $aprovado      = $value[aprovado];
+        $participante  = $value['firstname'].' '.$value['lastname'];
+        $nome_evento   = $value['nome_evento'];
+        $data_inicio   = $value['data_inicio'];
+        $data_fim      = $value['data_fim']? $value['data_fim']:"";
+        $carga_horaria = $value['carga_horaria'];
+        $tipo          = $value['nome_tipo'];
+        $aprovado      = $value['aprovado'];
         }
 
         if($aprovado){
