@@ -111,7 +111,7 @@
                     target="_blank"
                 >
                     <i class="fas fa-external-link-alt painel-icon"></i>
-                    <span class="painel-text">Acesso Painel</span>
+                    <span class="painel-text">Login</span>
                     
                 </a>
             </div>
