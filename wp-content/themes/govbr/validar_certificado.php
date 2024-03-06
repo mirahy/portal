@@ -73,7 +73,7 @@ if ($validar) {
 
     }
     else{
-        echo '<br><div class="bg-danger" style="padding: 15px">
+        echo '<br><div class="bg-danger cert-danger" style="padding: 15px">
                 Este certificado não consta em nossa base de dados <span class="glyphicon glyphicon-thumbs-down"></span>
               </div>';
     }
