@@ -48,7 +48,7 @@ if ($validar) {
 
         if($aprovado){
 
-         echo '<br><div class="bg-success" style="padding: 15px">
+         echo '<br><div class="bg-success cert-success" style="padding: 15px">
 					<h3>Certificado Válido  <span class="glyphicon glyphicon-thumbs-up"></span></h3>
 					
                Este certificado pertence a <b>'.$participante.'</b></br>
@@ -66,7 +66,7 @@ if ($validar) {
          </div>';
 
          }else{
-        		echo '<br><div class="bg-danger" style="padding: 15px">
+        		echo '<br><div class="bg-danger cert-danger" style="padding: 15px">
                 Certificado inativo  <span class="glyphicon glyphicon-thumbs-down"></span>
               </div>';
          }
