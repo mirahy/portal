@@ -20,9 +20,6 @@
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/assets/css/hover3d.css" />
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/assets/css/gallery.css" />
 
-	<!-- <script src=<?php echo get_home_url() ."/wp-content/themes/govbr/assets/js/bootstrap.bundle.min.js"?> ></script> -->
-	<script src="<?php bloginfo('template_url'); ?>/assets/js/jquery.hover3d.js" type="text/javascript"></script>
-	<script src="<?php bloginfo('template_url'); ?>/assets/js/gallery.js" type="text/javascript"></script>
 	
 	<?php wp_head(); ?>
 </head>
