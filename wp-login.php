@@ -1493,7 +1493,7 @@ switch ( $action ) {
 
 		wp_enqueue_script( 'user-profile' );
 		?>
-
+		<div id="" class="notice notice-info message"><p>Para conectar utilize o mesmo login e senha do UFGDnet.</p></div>
 		<form name="loginform" id="loginform" action="<?php echo esc_url( site_url( 'wp-login.php', 'login_post' ) ); ?>" method="post">
 			<p>
 				<label for="user_login"><?php _e( 'Username or Email Address' ); ?></label>
