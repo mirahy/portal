@@ -39,9 +39,9 @@
     </div>
     <div class="header-actions">
         <?php if ( has_nav_menu( 'institutional' ) ) : ?>
-            <div class="header-links dropdown">
-                <button class="br-button circle small" type="button" data-toggle="dropdown"
-                    aria-label="Abrir Acesso Rápido"><i class="fas fa-ellipsis-v" aria-hidden="true"></i>
+            <div class="header-links dropdown" >
+                <button class="br-button circle small" type="button" data-toggle="dropdown" 
+                    aria-label="Abrir Acesso Rápido"><i class="fas fa-ellipsis-v" aria-hidden="false"></i>
                 </button>
                 <div class="br-list menu-list">
                     <div class="header">

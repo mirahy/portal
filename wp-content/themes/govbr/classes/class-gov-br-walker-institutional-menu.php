@@ -131,13 +131,13 @@ if (!class_exists('Gov_BR_Walker_Institutional_Menu')) {
             $item_link = $data_object->url ? $data_object->url : 'javascript: void(0)';
             if ($args->walker->has_children && ($depth == 0 || $depth > 0) ) {
                 if($depth == 0){
-                    $output .=   '<li class="nav-item dropdown br-item">
-                                    <a class="nav-link dropdown-toggle" href="' . $item_link . '" data-bs-toggle="dropdown">'
+                    $output .=   '<li class="nav-item br-item dropdown">
+                                    <a class=" nav-item dropdown-toggle" href="' . $item_link . '" data-bs-toggle="dropdown" data-bs-auto-close="outside">'
                                     . $data_object->title .
                                     '</a>';
                     
                 }else{
-                    $output .=   '<li ><a class="dropdown-item " style="display: flex; justify-content: space-between; align-items: flex-end;" 
+                    $output .=   '<li ><a class="dropdown-item " data-bs-auto-close="inside" style="display: flex; justify-content: space-between; align-items: flex-end;" 
                                     href="' . $item_link . '">' . $data_object->title . ' <i class="fa-solid fa-angle-right"></i></a>';
                 }
             } else {

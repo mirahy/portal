@@ -1,4 +1,10 @@
 /* Styles Hidden VLibras button widget to look like it is the icon button */
+:root {
+  --rgb-ufgd-light-green: 200, 212, 0;
+  --rgb-ufgd-green: 116, 151, 25;
+  --rgb-ufgd-light-green-a-hover-2: 200,212,0,0.20;
+  --rgb-ufgd-light-green-a-hover: 200,212,0,0.10;
+}
 [vw-access-button] {
   position: absolute;
   left: 0;
@@ -7,8 +13,8 @@
 }
 
 [vw-access-button].active + .br-button {
-  --hover: var(--hover-dark);
-  background-color: var(--active) !important;
+  --hover: rgba(var(--rgb-ufgd-light-green-a-hover-2));
+  background-color: rgba(var(--rgb-ufgd-light-green-a-hover)) !important;
   color: var(--color-dark) !important;
 }
 
